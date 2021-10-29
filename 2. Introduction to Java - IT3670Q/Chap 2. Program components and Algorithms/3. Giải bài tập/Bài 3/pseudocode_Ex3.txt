@@ -1,0 +1,11 @@
+BEGIN
+    INPUT numberOfPeople
+    FOR i:=1 to numberOfPeople do
+        INPUT yourAge
+        IF (yourAge is less than 16) THEN
+            DISPLAY "You are not allowed to watch this movie"
+        ELSE
+            DISPLAY "OK"
+        ENDIF
+    ENDFOR
+END

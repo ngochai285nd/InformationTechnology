@@ -1,0 +1,10 @@
+BEGIN
+    REPEAT
+        INPUT side1, side2, side3
+        IF (side1+side2>side3) and (side1+side3>side2) and (side2+side3>side1) THEN
+            DISPLAY "This is the measure of the three sides of a triangle"
+        ELSE
+            DISPLAY "This is not the measure of the three sides of a triangle"
+        ENDIF
+    UNTIL (user enter "N")
+END
