@@ -28,7 +28,7 @@ _Bài làm:_
 
 **Bài 3.** Hãy lập trình 2 lớp Person và Student như biểu đồ lớp dưới đây. (chú ý các đặc tính, phương thức của từng lớp, và lớp Student kế thừa từ lớp Person).
 
-![OOP](.\Bài%203/Annotation%202021-10-30%20104544.png)
+![OOP](./Bài%203/Annotation%202021-10-30%20104544.png)
 
 _Bài làm:_ Đã gửi kèm Source code
 
