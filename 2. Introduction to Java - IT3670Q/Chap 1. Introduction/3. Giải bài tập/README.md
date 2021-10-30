@@ -7,7 +7,9 @@
 | Mã lớp: 126516           | Mã học phần: IT3670Q |
 
 **Bài 1:** Giải thích tại sao ngôn ngữ lập trình Java lại là ngôn ngữ _"dịch ở một nơi và chạy ở nhiều nơi"_ ? Từ đó giải thích tại sao Java là ngôn ngữ độc lập với nền tảng (hệ điều hành)?
-_Bài làm_
+
+_Bài làm:_
+
 Ta nhìn vào sơ đồ dưới đây:
 
 ![java](https://anphanhv.files.wordpress.com/2015/03/capture.png)
