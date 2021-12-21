@@ -151,7 +151,7 @@ public class Person {
 
 ```
 
-## Code Listing 9.3 (Money.java)
+***Code Listing 9.3 (Money.java)***
 
 ```java
 /** Objects represent nonnegative amounts of money */
@@ -256,7 +256,7 @@ public class Money {
 
 ```
 
-## Code Listing 9.4 (MoneyDriver.java)
+***Code Listing 9.4 (MoneyDriver.java)***
 
 ```java
 /** This program tests the money class. */
@@ -290,7 +290,7 @@ public class MoneyDriver {
 
 ```
 
-## Code Listing 9.5 (CreditCardDemo.java)
+***Code Listing 9.5 (CreditCardDemo.java)***
 
 ```java
 /** Demonstrates the CreditCard class */
