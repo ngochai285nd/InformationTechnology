@@ -14,18 +14,17 @@ After we have finished the ***Money*** class, we will write a ***CreditCard*** c
 
 ## Task 1: Writing a Copy Constructor
 
-1. Copy the files Address.java (code listing 9.1), Person.java (code listing 9.2), Money.java
-(code listing 9.3), MoneyDriver.java (code listing 9.4), and CreditCardDemo.java (code listing 9.5) from www.aw.com/cssupport or as directed by your instructor. Address.java, Person.java, oneyDemo.java, and CreditCardDemo.java are complete and will not need to be modified. We will start by modifying Money.java
+1. Copy the files ***Address.java*** (code listing 9.1), ***Person.java*** (code listing 9.2), ***Money.java*** (code listing 9.3), ***MoneyDriver.java*** (code listing 9.4), and ***CreditCardDemo.java*** (code listing 9.5) from www.aw.com/cssupport or as directed by your instructor. ***Address.java***, ***Person.java***, ***MoneyDriver.java***, and ***CreditCardDemo.java*** are complete and will not need to be modified. We will start by modifying ***Money.java***
 
 2. Overload the constructor. The constructor that you will write will be a copy constructor. It should use the parameter money object to make a duplicate money object, by copying the value of each instance variable from the parameter object to the instance variable of the new object.
 
-## Task 2: Writing equals and toString methods
+## Task 2: Writing ***equals*** and ***toString*** methods
 
-1. Write and document an equals method. The method compares the instance variables of the calling object with instance variables of the parameter object for equality and returns true if the dollars and the cents of the calling object are the same as the dollars and the cents of the parameter object. Otherwise, it returns false.
+1. Write and document an ***equals*** method. The method compares the instance variables of the calling object with instance variables of the parameter object for equality and returns **true** if the dollars and the cents of the calling object are the same as the dollars and the cents of the parameter object. Otherwise, it returns **false**.
 
-2. Write and document a toString method. This method will return a String that looks like money, including the dollar sign. Remember that if you have less than 10 cents, you will need to put a 0 before printing the cents so that it appears correctly with 2 decimal places.
+2. Write and document a ***toString*** method. This method will return a String that looks like money, including the dollar sign. Remember that if you have less than 10 cents, you will need to put a 0 before printing the cents so that it appears correctly with 2 decimal places.
 
-3. Compile, debug, and test by running the MoneyDriver.java driver program. You should get the output:
+3. Compile, debug, and test by running the ***MoneyDriver.java*** driver program. You should get the output:
 
 ```powershell
     The current amount is $500.00
@@ -37,19 +36,19 @@ After we have finished the ***Money*** class, we will write a ***CreditCard*** c
 
 ## Task #3: Passing and Returning Objects
 
-1. Create a CreditCard class according to the UML Diagram on the back. It should have data fields that include an owner of type Person, a balance of type Money, and a creditLimit of type Money.
+1. Create a ***CreditCard*** class according to the UML Diagram on the back. It should have data fields that include an **owner** of type ***Person***, a **balance** of type ***Money***, and a **creditLimit** of type ***Money***.
 
-2. It should have a constructor that has two parameters, a Person to initialize the owner and a Money value to initialize the creditLimit. The balance can be initialized to a Money value of zero. Remember you are passing in objects (pass by reference), so you have passed in the address to an object. If you want your CreditCard to have its own creditLimit and balance, you should create a new object of each using the copy constructor in the Money class.
+2. It should have a constructor that has two parameters, a ***Person*** to initialize the **owner** and a ***Money*** value to initialize the **creditLimit**. The **balance** can be initialized to a ***Money*** value of zero. Remember you are passing in objects (pass by reference), so you have passed in the address to an object. If you want your ***CreditCard*** to have its own **creditLimit** and **balance**, you should create a new object of each using the copy constructor in the ***Money*** class.
 
 3. It should have accessor methods to get the balance and the available credit. Since these are objects (pass by reference), we don’t want to create an insecure credit card by passing out addresses to components in our credit card, so we must return a new object with the same values. Again, use the copy constructor to create a new object of type money that can be returned.
 
-4. It should have an accessor method to get the information about the owner, but in the form of a String that can be printed out. This can be done by calling the toString method for the owner who is a Person).
+4. It should have an accessor method to get the information about the owner, but in the form of a String that can be printed out. This can be done by calling the **toString** method for the owner who is a ***Person***).
 
 5. It should have a method that will charge to the credit card by adding the amount of Money in the parameter to the balance if it will not exceed the credit limit. If the credit limit will be exceeded, the amount should not be added, and an error message can be printed to the console.
 
-6. It should have a method that will make a payment on the credit card by subtracting the amount of Money in the parameter from the balance.
+6. It should have a method that will make a payment on the credit card by subtracting the amount of ***Money*** in the parameter from the **balance**.
 
-7. Compile, debug, and test it out completely by running CreditCardDemo.java. You should get the output:
+7. Compile, debug, and test it out completely by running ***CreditCardDemo.java***. You should get the output:
 
 ```powershell
     Diane Christie, 237J Harvey Hall, Menomonie, WI 54751
